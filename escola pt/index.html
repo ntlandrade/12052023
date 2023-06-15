@@ -63,27 +63,149 @@
         }
 
         .english {
-            font-family: 'Montserrat';
             font-weight: 700;
             font-size: 14px;
             line-height: 24px;
             color: #23A6F0;
-            padding-left: 25px;
-            padding-top: 26px;
+            
+            
+           
         }
 
-        .coracaobuttom {
+        .sale {
+            width: 50px;
+            height: 24px;
+            background: #E74040;
+            display: flex;
+            align-items: center;
+            border-radius: 3px;
+            color:#FFFFFF;
+            text-align: center;
+            margin-left: 20px;
+            margin-top: -290px;
+            
+            
+        }
+
+        .icons {
             width: 40px;
             height: 40px;
-            background-color: #FFFFFF;
-            border-radius: 44.7857px; 
+            background: #FFFFFF;
+            border-radius: 44.7857px;
+            margin-top: 200px;
             border: none;
-            margin-left: 104px;
-            
-        }    
+            margin-right: 1px;
+            align-items: center;
+        }
+
+        .graphic {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            color: #252B42;
+            margin-top:3px;
+        }
+
+        .botoes {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            height: 250px;
+        }
+
+        .textos {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; 
+            margin-left:25px;
+            margin-top:30px;
+            font-family: 'Montserrat';
+        }
+
+        .focus {
+            font-size: 14px;
+            color: #737373;
+            line-height: 20px;
+            margin-top:5px;
+            line-height: 20px;
+        }
+
+        .download {
+            height: 11px;
+            width:7px;
+            background-color: #FFFFFF;
+            border:none;
+            margin-top:10px;
+            color:#737373;
+            margin-left: -5px;
+        }
+
+        .sales {
+            font-size: 14px;
+            color: #737373;
+            font-size: 14px;
+            margin-left:5px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+
+        .preco1 {
+            color: #BDBDBD;
+            font-size: 16px;
+            font-weight: 700;   
+        }
+
+        .preco2 {
+            color: #40BB15;
+            font-size:16px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+
+        .relogio {
+            color:#23A6F0;
+            width: 12.94px;
+            margin-top:30px;
+            margin-right:6px;
+        }
+
+        .horas {
+            font-size: 12px;
+            color: #737373;
+            font-weight: 400; 
+        }
+
+        .lessonsicon {
+            color: #E77C40;
+            width: 12px;
+            margin-top:30px;
+            margin-right:6px;
+        }
+
+        .lessons {
+            font-size: 12px;
+            color: #737373;
+            font-weight: 400; 
+        }
+
+        .progress {
+            font-size: 12px;
+            color: #737373;
+            font-weight: 400;  
+        }
+
+        .progressicon {
+            color: #40BB15;;
+            width: 12px;
+            margin-top:30px;
+            margin-right:6px;
+        }
+
+
+
 
         
-
+     
 
     </style>
 
@@ -91,29 +213,47 @@
 
         <div>
             <div>
-                <span class="pratice">
-                    Practice Advice
-                </span>
+                <span class="pratice">Practice Advice</span>
              <br>
-                <span class="feautured">
-                    Featured Products
-                </span>
+                <span class="feautured">Featured Products</span>
             <br>
-                <span class="problems conteiner">
-                    Problems trying to resolve the conflict between <br> the two major realms of Classical physics: Newtonian mechanics 
-                </span>
+                <span class="problems conteiner">Problems trying to resolve the conflict between <br> the two major realms of Classical physics: Newtonian mechanics </span>
             </div>
             <div class="retangulo">
+                <div class="img1"></div>
+                <div> <button type="button" class="sale">Sale</button></div>
+                <div class="botoes">
+                    <button type="button" class="icons"><i class="fa-regular fa-heart"></i></button>
+                    <button type="button" class="icons"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <button type="button" class="icons"><i class="fa-solid fa-eye"></i></button>
+                </div>
+                <div class="textos">
+                    <span class="english">English Departement </span>
+                    <span class="graphic">Graphic Design</span>
+                    <span class="focus">We focus on ergonomics and meeting <br> you where you work. It's only a <br> keystroke away.</span>
                 <div>
-                    <div class="img1"> </div>
-                    <button type="button" class="coracaobuttom"> <i class="fa-regular fa-heart"></i></button>
+                    <button type="button" class="download"><i class="fa-solid fa-down-long"></i></button>   
+                    <span class="sales">15 Sales</span>  
+                </div>    
+                <div>
+                    <span class="preco1">$16.48</span>
+                    <span class="preco2">$6.48</span>
                 </div>
                 <div>
-                    <span class="english"> English Departement </span>
+                    <span class="horas"><i class="fa-regular fa-clock relogio"></i>22hr 30min</span>
+                    <span class="lessons"><i class="fa-solid fa-list lessonsicon"></i>Lessons</span>
+                    <span class="progress" ><i class="fa-solid fa-chart-area progressicon"></i>Progress</span>
                 </div>
-               
+                </div>  
+
+                           
             </div>
-        </div> 
+                
+                
+        </div>    
+                  
+        
+            
 
     </body>
 
